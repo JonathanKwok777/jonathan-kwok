@@ -7,19 +7,17 @@ h1{
 
 }
 
-nav a{
+nav {
     position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: blue;
 }
 
-.Deliverables iframe{
+.Deliverables {
     width: 500px;
     height: 400px;
     margin: auto;
     position: relative;
     display: inline-block;
-}
-
-.center {
-    display: block;
-    margin: auto;
 }
