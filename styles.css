@@ -1,20 +1,39 @@
 h1{
     color: blue;
+    text-align: center;
+    top: 50px;
+    position: relative;
 }
 
 .Deliverables h3{
     color: navy;
 }
 
-nav a{
+nav {
     position: fixed;
-    width: 50%;
-    z-index: 10;
     background-color: black;
-    color: white;
+    height: 50px;
+    text-align: left;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
 }
 
-.Deliverables {
-    width: 500px;
-    height: 400px;
+nav a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
 }
+
+section {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.Deliverables a{
+    width: 1000px;
+    height: 700px;
+}
+
