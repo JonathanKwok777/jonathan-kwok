@@ -1,5 +1,5 @@
 h1{
-    color: red;
+    color: blue;
 }
 
 .Deliverables h3{
@@ -16,8 +16,7 @@ nav a{
 .Deliverables iframe{
     width: 500px;
     height: 400px;
-    margin: 50px;
+    margin: auto;
     position: relative;
     display: inline-block;
-    border: 5px solid blue;
 }
