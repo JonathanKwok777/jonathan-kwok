@@ -9,8 +9,6 @@ h1{
 
 nav a{
     position: fixed;
-    margin: auto;
-    display: inline-block;
 }
 
 .Deliverables iframe{
@@ -19,4 +17,9 @@ nav a{
     margin: auto;
     position: relative;
     display: inline-block;
+}
+
+.center {
+    display: block;
+    margin: auto;
 }
