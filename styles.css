@@ -1,12 +1,14 @@
+*{
+    position: relative;
+    top: 10px;
+}
 h1{
     color: blue;
     text-align: center;
-    top: 50px;
-    position: relative;
 }
 
-.Deliverables h3{
-    color: navy;
+h2 {
+    text-decoration: underline;
 }
 
 nav {
@@ -19,20 +21,38 @@ nav {
     z-index: 10;
 }
 nav a {
+    top: 0px;
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin: 10px;
 }
 
-section {
+.Center {
     text-align: center;
-    position: relative;
-    top: 50px;
 }
 
-.Deliverables a{
-    width: 1000px;
-    height: 700px;
+.Deliverables h3{
+    color: navy;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
 
+.Deliverables iframe{
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+
+.Deliverables div{
+    display: inline-block;
+}
+
+.Button {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+}
