@@ -4,20 +4,17 @@ h1{
 
 .Deliverables h3{
     color: navy;
-
 }
 
-nav {
+nav a{
     position: fixed;
-    width: 100%;
+    width: 50%;
     z-index: 10;
-    background-color: blue;
+    background-color: black;
+    color: white;
 }
 
 .Deliverables {
     width: 500px;
     height: 400px;
-    margin: auto;
-    position: relative;
-    display: inline-block;
 }
