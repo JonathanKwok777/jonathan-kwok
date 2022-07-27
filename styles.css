@@ -46,6 +46,27 @@ nav a {
 
 .Deliverables div{
     display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.Deliverables p{
+    text-decoration: underline;
+}
+
+.PersonalProjects div {
+    display: inline-block;
+    text-align: middle;
+    vertical-align: middle;
+    margin: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+}
+
+.PersonalProjects img {
+    width: 200px;
+    height: 250px;
 }
 
 .Button {
